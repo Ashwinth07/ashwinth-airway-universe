@@ -60,7 +60,7 @@ console.log(List);
           </div>
           <div className='col-2'>
             <h5>{x.departureDate}</h5>
-            <p>{x.departureAirport.name}</p>
+            <p>{x.departureAirport.city}</p>
           </div>
           <div className='col-2'>
             <h1>---------</h1>
@@ -68,10 +68,11 @@ console.log(List);
           </div>
           <div className='col-2'>
             <h5>{x.arrivalDate}</h5>
-            <p>{x.arrivalAirport.name}</p>
+            <p>{x.arrivalAirport.city}</p>
           </div>
           <div className='col-1'>
             <h6> ₹ {x.price}</h6>
+            <h6>{x.Seatcount}</h6>
           </div>
           <div className='col-2'>
              <button type="submit" className="btn btn-primary" value={x._id} onClick={handleClick}>Book now</button>
