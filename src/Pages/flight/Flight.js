@@ -64,7 +64,7 @@ function Flight() {
             </div>
             <div className='col-1'>
               <h6> ₹ {x.price}</h6>
-              <h6>seat count{x.Seatcount}</h6>
+              <h6>seat count {x.Seatcount}</h6>
             </div>
             <div className='col-2'>
                <button type="submit" className="btn btn-primary g" value={x._id} onClick={handleClick}>Book now</button>

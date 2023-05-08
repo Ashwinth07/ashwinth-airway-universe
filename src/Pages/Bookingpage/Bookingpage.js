@@ -137,7 +137,7 @@ const Bookingpage = () => {
           <Form.Group controlId="flightNumber">
             <Form.Label>Flight Number:</Form.Label>
             <select className="form-select"  name="flightNumber" value={flightDetails.flightNumber} onChange={handleInputChange}>
-                <option value="">Refer FlightId fill below</option>
+                <option value="">select the Correct flight num to book</option>
                 {List.map((category, index) => (
                   <option  name="flightNumber" value={category.flightNumber}>
                     {category.flightNumber}
